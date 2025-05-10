@@ -5,7 +5,7 @@ from tensorflow.keras.preprocessing import image
 from PIL import Image
 
 # Load model
-model = load_model(r'D:\Nitesh Singh\MajorProject\brain_tumor_model.h5')
+model = load_model(r'.\brain_tumor_model.h5')
 class_names = ['glioma', 'meningioma', 'pituitary', 'no_tumor']
 
 st.title("Brain Tumor Classification App")
